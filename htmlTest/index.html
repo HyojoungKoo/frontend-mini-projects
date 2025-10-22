@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page!</title>
+</head>
+<body>
+    <!--웹 페이지에 표시할 내용을 적습니다.-->
+    <p>나의 첫 번째 웹페이지</p>
+    <p>공기의 원소 기호는 H<sub>2</sub>0</p>
+    <p>4<sup>2</sup>은 16입니다.</p>
+    <p>영화소개</p>
+    <p>이번 영화의 <span><ins>하이라이트</ins></span> 장면은 바로 여기임</p>
+    <p>세일기간을 맞이하여 온라인 강의 수강권을 <br>할인된 금액 (정가<del>36,000원</del><ins>20,000원</ins>에 판매합니다.)</p>
+</body>
+<body>
+    <div class = "ul태그">
+        <h1>판매 중인 과일1</h1>
+        <ul>
+            <li>바나나</li>
+            <li>사과</li>
+            <li>블루베리</li>
+        </ul>
+    </div>
+    <div class="ol태그">
+        <h1>판매 중인 과일 2</h1>
+        <ol>
+            <li>바나나</li>
+            <li>사과</li>
+            <li>블루베리</li>
+        </ol>
+    </div>
+        <div class="dt태그">
+        <h1>판매 중인 과일 3</h1>
+        <dl>
+            <dt>사과</dt>
+            <dd>아삭아삭 맛있는 사과가 왔어요</dd>
+            <dt>블루베리</dt>
+            <dd>달콤한 블루베리가 왔어요</dd>
+        </dl>
+    </div>
+    <a href="https://www.gilbut.co.kr" target="_blank" title="도서출판 길벗">길벗 홈페이지</a>
+    <form>
+        <fieldset>
+            <legend>기본 정보</legend>
+            <p>
+            <label for="userid">아이디</label>
+            <input type="text" id="userid">
+            </p>
+            <p>
+                <label for="password">비밀번호</label>
+                <input type="text" id="password">
+            </p>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>선택 정보</legend>
+            <p>
+            <label for="title">제목</label>
+            <input type="text" id="userid" name="title">
+            </p>
+            <p>
+                <label for="desc">내용</label>
+                <textarea id="desc" name="desc"></textarea>
+            
+            </p>
+        </fieldset>
+    </form>
+    <select name="city" id="city" size="3">
+            <option value="창원시">창원시</option>
+            <option value="진주시">진주시</option>
+            <option value="연제구">연제구</option>
+            <option value="사상구">사상구</option>
+    </select>
+    <button type="submit">
+        <img src="instagram.png" alt="인스타그램 버튼">인스타그램에 등록하기
+    </button>
+
+<input type="url" maxlength="4">
+<textarea maxlength="4"></textarea>
+
+<fieldset>
+    <legend>좋아하는 과일</legend>
+        <input type="checkbox" id="banana" value="banana">
+        <label for="banana">banana</label><br>
+        <input type="checkbox" id="apple" value="apple" checked>
+        <label for="appple">apple</label><br>
+        <input type="checkbox" id="orange" value="orange">
+        <label for="orange">orange</label>
+</fieldset>
+<input type="tel" placeholder="전화번호를 입력해주세요.">
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+# 제외할 폴더
+htmlTest/
+
+# VSCode 환경파일 무시
+.vscode/
+
+# 시스템 임시파일
+.DS_Store
+Thumbs.db
